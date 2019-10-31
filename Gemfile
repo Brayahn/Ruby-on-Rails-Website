@@ -40,6 +40,9 @@ gem 'devise', '~> 4.7', '>= 4.7.1'
 
 gem 'activeadmin', '~> 2.4'
 gem 'active_admin_flat_skin', '~> 0.1.2'
+gem "paperclip", git: "git://github.com/thoughtbot/paperclip.git"
+gem 'social-share-button', '~> 1.2', '>= 1.2.1'
+
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
