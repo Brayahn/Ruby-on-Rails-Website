@@ -3,16 +3,16 @@ deployment:
   tasks:
     - export DEPLOYPATH=/home/jasetcon/jaset_con
 
-    - /bin/cp -R app $DEPLOYPATH
-    - /bin/cp -R bin $DEPLOYPATH
-     - /bin/cp -R config $DEPLOYPATH
-     - /bin/cp -R db $DEPLOYPATH
-     - /bin/cp -R lib $DEPLOYPATH
-     - /bin/cp -R log $DEPLOYPATH
-     - /bin/cp -R public $DEPLOYPATH
-     - /bin/cp -R storage $DEPLOYPATH
-     - /bin/cp -R tmp $DEPLOYPATH
-      - /bin/cp -R vendor $DEPLOYPATH
+    - /bin/cp -R * app $DEPLOYPATH
+    - /bin/cp -R * bin $DEPLOYPATH
+     - /bin/cp -R * config $DEPLOYPATH
+     - /bin/cp -R * db $DEPLOYPATH
+     - /bin/cp -R* lib $DEPLOYPATH
+     - /bin/cp -R* log $DEPLOYPATH
+     - /bin/cp -R* public $DEPLOYPATH
+     - /bin/cp -R* storage $DEPLOYPATH
+     - /bin/cp -R* tmp $DEPLOYPATH
+      - /bin/cp -R* vendor $DEPLOYPATH
 
 
     - /bin/cp .gitignore $DEPLOYPATH
