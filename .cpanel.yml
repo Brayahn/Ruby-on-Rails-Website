@@ -1,7 +1,7 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/jasetcon/jaset_con
+    - export DEPLOYPATH=/home/jasetcon/public_html/jaset_con
 
     - /bin/cp -R * app $DEPLOYPATH
     - /bin/cp -R * bin $DEPLOYPATH
